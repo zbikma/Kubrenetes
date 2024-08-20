@@ -1,0 +1,25 @@
+# Ignore build output directories
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+.vs/
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore Docker files that aren't necessary to share
+.dockerignore
+
+# Ignore OS-specific files (e.g., macOS)
+.DS_Store
+
+# Ignore environment variable files (if using for local dev)
+.env
+
+# Ignore NuGet packages (optional, if you don't want to include them)
+*.nupkg
+packages/
